@@ -6,14 +6,14 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    public float horizontalInput;
-    public float verticalInput;
+    private float horizontalInput;
+    private float verticalInput;
     public float movementSpeed = 2;
-    public float rotationMultiplier = 20;
     public float mouseSensitivity;
-    public float verticalRotation;
-    public float horizontalRotation;
+    private float verticalRotation;
+    private float horizontalRotation;
     public float maxVerticalRotation = 45;
+    public float gravity = 3;
     CharacterController controller;
 
     Vector3 direction;
@@ -53,6 +53,7 @@ public class PlayerMovement : MonoBehaviour
 
         direction = new Vector3(horizontalInput * movementSpeed, 0, verticalInput * movementSpeed);
         direction = Vector3.ClampMagnitude(direction, movementSpeed);
+        direction.y = -gravity*Time.deltaTime;
         direction = transform.TransformDirection(direction);
 
         controller.Move(direction * Time.deltaTime);
