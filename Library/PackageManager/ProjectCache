@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638614021874490076
-    m_Hash: 3514944958
+      ticks: 638614070583574357
+    m_Hash: 2309539620
   m_LockFileStatus:
     m_FilePath: C:/Users/ohami/Documents/Github/Brackeys/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638614022041815028
-    m_Hash: 3518015605
+      ticks: 638614070583664399
+    m_Hash: 1818764326
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -33,7 +33,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Editor
+      category: 
       type: asset
       description: The Version Control package gives you the ability to use either
         Collaborate or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic
@@ -113,6 +113,10 @@ m_PackageAssets:
         - 2.1.0-preview.6
         - 2.1.0
         - 2.2.0
+        - 2.3.1
+        - 2.4.3
+        - 2.4.4
+        - 2.5.1
         compatible:
         - 1.9.0
         - 1.10.2
@@ -258,6 +262,9 @@ m_PackageAssets:
         - 3.0.24
         - 3.0.25
         - 3.0.26
+        - 3.0.27
+        - 3.0.28
+        - 3.0.31
         compatible:
         - 1.0.2
         - 1.0.6
@@ -299,6 +306,9 @@ m_PackageAssets:
         - 3.0.24
         - 3.0.25
         - 3.0.26
+        - 3.0.27
+        - 3.0.28
+        - 3.0.31
         verified: 2.0.7
       dependencies:
       - name: com.unity.test-framework
@@ -333,12 +343,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.11
+    - packageId: com.unity.ide.visualstudio@2.0.22
       testable: 0
       isDirectDependency: 1
-      version: 2.0.11
+      version: 2.0.22
       source: 1
-      resolvedPath: C:\Users\ohami\Documents\Github\Brackeys\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+      resolvedPath: C:\Users\ohami\Documents\Github\Brackeys\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -347,7 +357,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: asset
+      type: assets
       description: Code editor integration for supporting Visual Studio as code editor
         for unity. Adds support for generating csproj files for intellisense purposes,
         auto discovery of installations, etc.
@@ -430,20 +440,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637613656180000000
-      documentationUrl: 
+      datePublishedTicks: 638326061910000000
+      documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: 680e06d94ffca728223ae2cb14bb919cd354e2c1
+        revision: 700b44077345e97d37d464ff25507638983aed64
         path: 
-    - packageId: com.unity.ide.vscode@1.2.4
+    - packageId: com.unity.ide.vscode@1.2.5
       testable: 0
       isDirectDependency: 1
-      version: 1.2.4
+      version: 1.2.5
       source: 1
-      resolvedPath: C:\Users\ohami\Documents\Github\Brackeys\Library\PackageCache\com.unity.ide.vscode@1.2.4
+      resolvedPath: C:\Users\ohami\Documents\Github\Brackeys\Library\PackageCache\com.unity.ide.vscode@1.2.5
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -503,13 +513,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637660806170000000
+      datePublishedTicks: 637800255360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-        revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
+        url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        revision: b0740c80bfc2440527c317109f7c3d9100132722
         path: 
     - packageId: com.unity.test-framework@1.1.29
       testable: 0
@@ -524,7 +534,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Unity Test Framework
+      category: 
       type: asset
       description: Test framework for running Edit mode and Play mode tests in Unity.
       status: 4
@@ -575,6 +585,11 @@ m_PackageAssets:
         - 1.3.8
         - 1.3.9
         - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -594,6 +609,11 @@ m_PackageAssets:
         - 1.3.8
         - 1.3.9
         - 1.4.0
+        - 1.4.1
+        - 1.4.2
+        - 1.4.3
+        - 1.4.4
+        - 1.4.5
         - 2.0.1-exp.1
         - 2.0.1-exp.2
         - 2.0.1-pre.12
@@ -649,7 +669,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Text Rendering
+      category: 
       type: asset
       description: 'TextMeshPro is the ultimate text solution for Unity. It''s the
         perfect replacement for Unity''s UI Text and the legacy Text Mesh.
@@ -756,23 +776,37 @@ m_PackageAssets:
         - 3.0.4
         - 3.0.5
         - 3.0.6
+        - 3.0.7
+        - 3.0.8
+        - 3.0.9
         - 3.2.0-pre.1
         - 3.2.0-pre.2
         - 3.2.0-pre.3
         - 3.2.0-pre.4
         - 3.2.0-pre.5
         - 3.2.0-pre.6
+        - 3.2.0-pre.7
+        - 3.2.0-pre.8
+        - 3.2.0-pre.9
+        - 3.2.0-pre.10
         - 4.0.0-pre.1
         - 4.0.0-pre.2
         compatible:
         - 3.0.6
+        - 3.0.7
+        - 3.0.8
+        - 3.0.9
         - 3.2.0-pre.1
         - 3.2.0-pre.2
         - 3.2.0-pre.3
         - 3.2.0-pre.4
         - 3.2.0-pre.5
         - 3.2.0-pre.6
-        verified: 3.0.6
+        - 3.2.0-pre.7
+        - 3.2.0-pre.8
+        - 3.2.0-pre.9
+        - 3.2.0-pre.10
+        verified: 3.0.9
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -915,6 +949,7 @@ m_PackageAssets:
         - 1.8.4
         - 1.8.5
         - 1.8.6
+        - 1.8.7
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -956,20 +991,21 @@ m_PackageAssets:
         - 1.8.4
         - 1.8.5
         - 1.8.6
+        - 1.8.7
         verified: 1.4.8
       dependencies:
+      - name: com.unity.modules.audio
+        version: 1.0.0
       - name: com.unity.modules.director
         version: 1.0.0
       - name: com.unity.modules.animation
         version: 1.0.0
-      - name: com.unity.modules.audio
-        version: 1.0.0
       - name: com.unity.modules.particlesystem
         version: 1.0.0
       resolvedDependencies:
-      - name: com.unity.modules.director
-        version: 1.0.0
       - name: com.unity.modules.audio
+        version: 1.0.0
+      - name: com.unity.modules.director
         version: 1.0.0
       - name: com.unity.modules.animation
         version: 1.0.0
@@ -1028,6 +1064,7 @@ m_PackageAssets:
         - 1.0.0
         - 3.0.0-exp.1
         - 3.0.0-exp.3
+        - 3.0.0-exp.4
         compatible:
         - 1.0.0
         verified: 1.0.0
@@ -2821,7 +2858,7 @@ m_PackageAssets:
         name: 
         email: 
         url: 
-      category: Libraries
+      category: 
       type: asset
       description: Custom version of the nunit package build to work with Unity.
         Used by the Unity Test Framework.
